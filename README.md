@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Ada programming: an incorrect range check in a function. The `Check_Range` function uses `elsif` but does not handle edge cases such as when `Value` equals `Min` or `Max`. This leads to the wrong result being returned. The solution corrects this logic.
